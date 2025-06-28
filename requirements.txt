@@ -1,0 +1,13 @@
+scikit-learn
+pandas
+sentence-transformers
+torch
+numpy
+fastapi
+uvicorn
+tensorflow
+# For GPU support, you may need to install specific versions of torch and tensorflow
+# For example, you can install torch with CUDA support:
+import seaborn as sns
+
+    
