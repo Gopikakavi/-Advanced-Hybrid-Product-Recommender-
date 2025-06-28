@@ -87,9 +87,9 @@ Follow these steps to get the project up and running on your local machine.
 1. Clone the Repository
 Bash
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-(Remember to replace your-username/your-repo-name with your actual GitHub repository URL.)
+git clone https://github.com/Gopikakavi/-Advanced-Hybrid-Product-Recommender-.git
+cd -Advanced-Hybrid-Product-Recommender
+
 
 2. Create a Virtual Environment (Recommended)
 Bash
