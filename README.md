@@ -80,6 +80,7 @@ Requests (for API calls)
 ├── app.py                      # Streamlit frontend application
 ├── requirements.txt            # Python dependencies
 └── README.md                   # This file
+
 ⚙️ Setup and Installation
 Follow these steps to get the project up and running on your local machine.
 
