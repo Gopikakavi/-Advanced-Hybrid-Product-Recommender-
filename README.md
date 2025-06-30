@@ -1,14 +1,16 @@
-###🧠 Advanced Hybrid Product Recommender (with Streamlit UI)
+🧠 Advanced Hybrid Product Recommender (with Streamlit UI)
+
 🚀 Overview
 The Advanced Hybrid Product Recommender is a full-stack application delivering intelligent product recommendations. It combines cutting-edge AI techniques and traditional methods in a hybrid model, paired with an interactive Streamlit UI for an intuitive user experience.
 
 This system is built with:
 
-           ⚡ FastAPI for an asynchronous, high-performance backend API
+ ⚡ FastAPI for an asynchronous, high-performance backend API
 
-           🌐 Streamlit for a rich, real-time user interface
+ 🌐 Streamlit for a rich, real-time user interface
 
-            🧠 Multiple AI models for robust, hybrid recommendation logic
+  🧠 Multiple AI models for robust, hybrid recommendation logic
+
 ✨ Features
 
 🔀 Hybrid Recommendation Logic – Combines multiple models for best results.
@@ -108,11 +110,11 @@ pip install -r requirements.txt
    
 Ensure your data/ directory contains:
 
-      products.json
+ products.json
 
-      ratings.json
+ ratings.json
 
-       reviews.json
+ reviews.json
 
 ✅ Sample data is included; feel free to replace it with your own.
 
