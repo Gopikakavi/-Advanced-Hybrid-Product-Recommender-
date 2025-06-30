@@ -86,33 +86,31 @@ Follow these steps to get the project up and running on your local machine.
 
 1. Clone the Repository
 Bash
-
 git clone https://github.com/Gopikakavi/-Advanced-Hybrid-Product-Recommender-.git
 cd -Advanced-Hybrid-Product-Recommender
 
 
 2. Create a Virtual Environment (Recommended)
 Bash
-
 python -m venv venv
+
 3. Activate the Virtual Environment
 On Windows:
-
 Bash
-
-.\venv\Scripts\activate
+     .\venv\Scripts\activate
 On macOS/Linux:
-
 Bash
+     source venv/bin/activate
 
-source venv/bin/activate
 4. Install Dependencies
+
 Install all the required Python packages:
 
 Bash
-
 pip install -r requirements.txt
+
 5. Prepare Data
+
 Ensure you have your data files (products.json, ratings.json, reviews.json) in the data/ directory. Dummy data files are included for initial setup. You can replace these with your own datasets.
 
 🚀 Running the Application
@@ -122,7 +120,6 @@ This project consists of two main parts: the FastAPI backend and the Streamlit f
 Open your first terminal, activate the virtual environment, navigate to the project root, and run:
 
 Bash
-
 (venv) C:\path\to\your\project> uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
 You should see output indicating that Uvicorn is running, typically on http://0.0.0.0:8000. You can access the API documentation (Swagger UI) at http://localhost:8000/docs.
 
@@ -135,6 +132,7 @@ Bash
 This will open the Streamlit application in your web browser (usually at http://localhost:8501).
 
 📊 Usage
+
 Once both the backend and frontend are running:
 
 Interact with the Streamlit App:
@@ -154,6 +152,7 @@ Open your browser and go to http://localhost:8000/docs to access the interactive
 You can directly test the /recommend endpoint by providing a JSON request body.
 
 📝 Extending and Customizing
+
 Adding New Models: Create a new Python file in the models/ directory (e.g., new_model.py), implement a get_recommendations method, and then integrate it into hybrid_model.py and update the weights in api/main.py and app.py.
 
 Data Updates: Replace the products.json, ratings.json, and reviews.json files with your own datasets. Ensure their structure matches the expected format.
