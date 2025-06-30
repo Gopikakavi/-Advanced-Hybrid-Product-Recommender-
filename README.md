@@ -1,5 +1,4 @@
-### 📂 Project Structure: Where Everything Resides!
-
+###🧠 Advanced Hybrid Product Recommender (with Streamlit UI)
 🚀 Overview
 The Advanced Hybrid Product Recommender is a full-stack application delivering intelligent product recommendations. It combines cutting-edge AI techniques and traditional methods in a hybrid model, paired with an interactive Streamlit UI for an intuitive user experience.
 
