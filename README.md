@@ -1,8 +1,15 @@
 🧠 Advanced Hybrid Product Recommender (with Streamlit UI)
 
 🚀 Overview
-The Advanced Hybrid Product Recommender is a full-stack application delivering intelligent and relevant product recommendations. It uses a hybrid AI approach combining multiple recommendation techniques, exposed through a FastAPI backend and an interactive Streamlit UI.
+The Advanced Hybrid Product Recommender is a full-stack application delivering intelligent product recommendations. It combines cutting-edge AI techniques and traditional methods in a hybrid model, paired with an interactive Streamlit UI for an intuitive user experience.
 
+This system is built with:
+
+           ⚡ FastAPI for an asynchronous, high-performance backend API
+
+           🌐 Streamlit for a rich, real-time user interface
+
+            🧠 Multiple AI models for robust, hybrid recommendation logic
 ✨ Features
 
 🔀 Hybrid Recommendation Logic – Combines multiple models for best results.
@@ -76,37 +83,37 @@ Navigate our well-structured project with ease:
 Follow these steps to get the project up and running on your local machine:
 
 1. Clone the Repository
-'''text
+```text
 git clone https://github.com/Gopikakavi/-Advanced-Hybrid-Product-Recommender-.git
 cd -Advanced-Hybrid-Product-Recommender
-'''
+``` 
 2. Create a Virtual Environment (Recommended)
 bash
-'''text
+```text
 python -m venv venv
-'''
+``` 
 3. Activate the Virtual Environment
 bash
+```text
 .\venv\Scripts\activate
+``` 
 On macOS/Linux:
-
-bash
-Copy
-Edit
+```text
 source venv/bin/activate
+```
 4. Install Dependencies
-bash
-Copy
-Edit
+```text
 pip install -r requirements.txt
+```
 5. Prepare the Data
+   
 Ensure your data/ directory contains:
 
-products.json
+      products.json
 
-ratings.json
+      ratings.json
 
-reviews.json
+       reviews.json
 
 ✅ Sample data is included; feel free to replace it with your own.
 
@@ -115,23 +122,20 @@ This project has two main components: the FastAPI backend and the Streamlit fron
 
 1. Start the FastAPI Backend
 Open Terminal 1:
-
-bash
-Copy
-Edit
+```text
 uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+```
 Visit the API at http://localhost:8000/docs to test the Swagger UI.
 
 2. Start the Streamlit Frontend
 Open Terminal 2:
-
-bash
-Copy
-Edit
+```text
 streamlit run app.py
+```
 This should open the frontend in your browser at http://localhost:8501
 
 📊 Usage
+
 Once the backend and frontend are live:
 
 Enter a User ID or select a Product
@@ -151,6 +155,7 @@ Implement a get_recommendations() function
 Register it in hybrid_model.py and update api/main.py & app.py to use it
 
 📈 Data Updates
+
 Replace the files in data/:
 
 products.json
