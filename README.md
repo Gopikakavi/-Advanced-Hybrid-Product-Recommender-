@@ -70,8 +70,7 @@ Navigate our well-structured project with ease:
 ├── app.py                          # The Streamlit App: Your interactive user interface, brought to life here!
 ├── requirements.txt                # Dependency List: All necessary Python libraries for smooth operation.
 └── README.md                       # This Guide: Your comprehensive manual for the project!
-text'''
-
+```  
 ⚙️ Setup and Installation
 
 Follow these steps to get the project up and running on your local machine:
